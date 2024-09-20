@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+}
+
+body {
+    font-family: Roboto;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header,
+.banner {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+}
+
+.header {
+    padding: 18px 200px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.banner {
+    padding: 150px 200px;
+    display: flex;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.introduction p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+    margin-left: 25px;
+    border: solid 2px white;
+}
+
+.button {
+    background-color: #3882F6;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 10px 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.button a,
+.button2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 140px 100px;
+    flex-wrap: wrap;
+}
+
+.information h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 36px;
+}
+
+.pieces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.piece {
+    border: solid 2px #1F2937;
+    border-radius: 8px;
+}
+
+.text {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    margin-top: 6px;
+    font-size: 21px;
+    background-color: #1F2937;
+    color: white;
+    border-radius: 8px;
+}
+
+.personal {
+    display: flex;
+    padding: 200px 250px;
+    background-color: #E5E7EB;   
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.review {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 21px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchase {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#final {
+    width: 300px;
+    height: auto;
+}
+
+#final p {
+    color: rgb(219, 219, 219);
+}
+
+.button2 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border: solid 1px white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 0;
+}
